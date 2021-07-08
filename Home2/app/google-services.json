@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "389970648952",
+    "firebase_url": "https://easychamba-abe41-default-rtdb.firebaseio.com",
+    "project_id": "easychamba-abe41",
+    "storage_bucket": "easychamba-abe41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389970648952:android:911ecb736e75097c37328d",
+        "android_client_info": {
+          "package_name": "com.example.home2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389970648952-lg3vbg99q51hkkh89avi62ll5mglpjbn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwjA0VP1p1pkUJArXLySKRUiGmgW-0Q8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389970648952-lg3vbg99q51hkkh89avi62ll5mglpjbn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
