@@ -1,3 +1,12 @@
+/*<!--
+    EASYCHAMBA Users.java
+    Desarollado por Young Developers:
+        - Alosilla Sánchez Moreno Guillermo
+        - Delgado Rivera Ricardo Mauricio
+        - Lazo Acuña Franco Alfredo
+        - Mamani Paccori Ray Jose Enrique
+        - Rodriguez Lopez Paolo
+-->*/
 package com.example.home2.pojo;
 
 public class Users {
