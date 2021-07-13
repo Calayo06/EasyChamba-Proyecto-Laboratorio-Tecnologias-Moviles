@@ -1,3 +1,13 @@
+/*<!--
+    EASYCHAMBA Ayuda.kt
+    Desarrollado en Kotlin
+    Desarollado por Young Developers:
+        - Alosilla Sánchez Moreno Guillermo
+        - Delgado Rivera Ricardo Mauricio
+        - Lazo Acuña Franco Alfredo
+        - Mamani Paccori Ray Jose Enrique
+        - Rodriguez Lopez Paolo
+-->*/
 package com.example.home2
 
 import androidx.appcompat.app.AppCompatActivity
