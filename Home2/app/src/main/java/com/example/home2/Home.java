@@ -23,4 +23,12 @@ public class Home extends AppCompatActivity {
         Intent onClickHomeHelp = new Intent(this, Ayuda.class);
         startActivity(onClickHomeHelp);
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+
+        Intent intent = new Intent(Home.this, MainActivity.class);
+        startActivity(intent);
+        finish();
+    }
 }

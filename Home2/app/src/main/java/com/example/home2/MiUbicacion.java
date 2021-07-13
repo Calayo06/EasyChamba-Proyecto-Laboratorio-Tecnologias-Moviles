@@ -2,6 +2,7 @@ package com.example.home2;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationListener;
@@ -96,6 +97,13 @@ public class MiUbicacion extends FragmentActivity implements OnMapReadyCallback 
         };
         locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, locationListener);
 
+    }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
 
+        Intent intent = new Intent(MiUbicacion.this, MainActivity.class);
+        startActivity(intent);
+        finish();
     }
 }

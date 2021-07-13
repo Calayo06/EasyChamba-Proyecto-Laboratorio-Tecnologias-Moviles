@@ -1,16 +1,17 @@
 package com.example.home2.pojo;
 
 public class Users {
-    String nombres;;
+    String nombres;
     String servicio;
     String numero;
 
     public Users(String nombres,String numero,String servicio) {
         this.nombres = nombres;
-
         this.servicio = servicio;
         this.numero = numero;
     }
+
+
 
     public String getNombres() {
         return nombres;

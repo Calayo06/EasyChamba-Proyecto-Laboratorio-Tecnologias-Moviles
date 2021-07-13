@@ -7,21 +7,20 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.common.api.Api;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthInvalidUserException;
-import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 
 public class Login extends AppCompatActivity implements View.OnClickListener {
+    private TextView olvidasteContrasena;
     private EditText TextEmail;
     private EditText TextPassword;
     private Button btnLogin;
@@ -36,14 +35,15 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
         mAuth = FirebaseAuth.getInstance();
 
-        TextEmail = (EditText) findViewById(R.id.TxtEmailLogin);
+        TextEmail = (EditText) findViewById(R.id.emailEditText);
         TextPassword = (EditText) findViewById(R.id.TxtPasswordLogin);
 
-        btnLogin = (Button) findViewById(R.id.botonIniciarSesion);
+        btnLogin = (Button) findViewById(R.id.recuperarButton);
 
         progressDialog = new ProgressDialog(this);
 
         btnLogin.setOnClickListener(this);
+        olvidasteContrasena = (TextView) findViewById(R.id.txtOlvidasteContrasena);
     }
 
     private void iniciarSesion() {
@@ -94,6 +94,10 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         iniciarSesion();
     }
 
+    public void onClickLoginOlvidar(View view) {
+        Intent onClickLoginOlvidar = new Intent(this, ForgotPassword.class);
+        startActivity(onClickLoginOlvidar);
+    }
 
     public void onClickLoginRegistro(View view) {
         Intent onClickLoginRegistro = new Intent(this, Registro.class);

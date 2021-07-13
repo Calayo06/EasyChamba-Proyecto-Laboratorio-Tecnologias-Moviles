@@ -23,11 +23,11 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/botonIniciarSesion"
+            app:layout_constraintTop_toBottomOf="@+id/recuperarButton"
             app:layout_constraintVertical_bias="0.0" />
 
         <Button
-            android:id="@+id/botonIniciarSesion"
+            android:id="@+id/recuperarButton"
             android:layout_width="270dp"
             android:layout_height="wrap_content"
             android:onClick="onClick"
@@ -38,15 +38,16 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.503"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            app:layout_constraintTop_toBottomOf="@+id/txtOlvidasteContrasena"
             app:layout_constraintVertical_bias="0.085"
             app:strokeColor="#FFFFFF" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/txtOlvidasteContrasena"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
+            android:onClick="onClickLoginOlvidar"
             android:text="Olvidaste tu contraseña?"
             android:textColor="@color/design_default_color_primary_dark"
             android:textSize="15sp"
@@ -80,10 +81,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/TxtEmailLogin" />
+            app:layout_constraintTop_toBottomOf="@+id/emailEditText" />
 
         <EditText
-            android:id="@+id/TxtEmailLogin"
+            android:id="@+id/emailEditText"
             android:layout_width="270dp"
             android:layout_height="42dp"
             android:layout_marginTop="32dp"

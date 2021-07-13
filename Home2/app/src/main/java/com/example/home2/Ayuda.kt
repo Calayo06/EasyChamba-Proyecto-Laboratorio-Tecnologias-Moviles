@@ -60,3 +60,4 @@ class Ayuda : AppCompatActivity() {
                 errorText.text = it.toString()
             }
     }}
+
