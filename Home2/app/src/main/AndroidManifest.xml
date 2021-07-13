@@ -1,3 +1,12 @@
+<!--
+    EASYCHAMBA HOME2
+    Desarollado por Young Developers:
+        - Alosilla Sánchez Moreno Guillermo
+        - Delgado Rivera Ricardo Mauricio
+        - Lazo Acuña Franco Alfredo
+        - Mamani Paccori Ray Jose Enrique
+        - Rodriguez Lopez Paolo
+-->
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.home2">
